@@ -1,10 +1,16 @@
 # Test Task: Laravel + React Blog
 ## Тестовое задание: разработка REST API на Laravel и фронтенда на React для управления статьями и комментариями.
+
 Технологии
+
 Backend: Laravel (Sail)
+
 Frontend: React (Vite)
+
 Database: MySQL
+
 Environment: Docker
+
 ## Инструкция по запуску
 Для работы проекта необходимо наличие установленного Docker и запущенного Docker Engine.
 ### 1. Запуск Backend (Laravel Sail)
