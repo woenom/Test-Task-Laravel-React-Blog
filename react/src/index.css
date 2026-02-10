@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer components {
+  .input-label {
+    @apply block my-2 text-xl font-medium text-slate-900;
+  }
+
+  .input-field {
+    @apply bg-slate-50 border border-slate-300 text-slate-900 text-sm rounded-lg 
+           focus:ring-blue-500 focus:border-blue-500 block w-full my-2 px-3 py-2.5 
+           shadow-sm placeholder:text-slate-400 outline-none transition-all;
+  }
+
+  .input-textarea {
+    @apply  bg-slate-50 border border-slate-300 text-slate-900 text-sm rounded-lg 
+            focus:ring-blue-500 focus:border-blue-500 block w-full my-2 p-3.5 
+            shadow-sm placeholder:text-slate-400 outline-none transition-all;
+  }
+
+  .btn-primary {
+    @apply text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none 
+           focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 
+           text-center shadow-md transition-colors disabled:opacity-50;
+  }
+
+  .card-block{
+    @apply block max-w-full my-2 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100;
+  }
+
+  .card-title{
+    @apply mb-3 text-xl font-bold tracking-tight text-gray-700 leading-8;
+  }
+
+  .card-content{
+    @apply font-normal text-gray-700;
+  }
+
+  .card-date{
+    @apply text-gray-500;
+  }
+
+  .article-block{
+    @apply mt-10 h-auto mx-[20%];
+  }
+
+  .article-title{
+    @apply mb-3 text-lg md:text-2xl font-bold text-gray-900 leading-relaxed;
+  }
+
+  .article-content{
+    @apply mb-3 text-gray-600;
+  }
+}
