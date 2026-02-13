@@ -60,4 +60,3 @@ GET /api/articles/{id} — просмотр статьи.
 POST /api/articles — создание статьи.
 
 POST /api/articles/{id}/comments — добавление комментария.
-### Затраченное время: 40 часов
